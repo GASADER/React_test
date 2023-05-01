@@ -1,0 +1,45 @@
+.header-container
+{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem;
+}
+.logo
+{
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    color: blueviolet;
+
+}
+.signin-container
+{
+    display: flex;
+    gap: 1rem;
+    padding: 1rem;
+}
+.signin, .signup, .getstarted
+{
+    text-decoration: none;
+    padding: 0.5rem;
+}
+.signin:hover, .signup:hover, .logo-text:hover
+{
+    text-decoration: underline;
+    scale: 1.1;
+}
+.getstarted
+{
+    background-color: blueviolet;
+    color: white;
+    border: 1px white solid;
+    border-radius: 10px ;
+}
+.getstarted:hover
+{
+    background-color:white;
+    color:blueviolet;
+    border: 1px blueviolet solid;
+    scale: 1.1;
+}
